@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "dgb",
-  "license": "ISC",
+  "author": "DavidGarciaBalarezo <victordad17@hotmail.com>",
+  "license": "CC-BY-1.0",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
@@ -26,6 +26,5 @@
   "scripts": {
     "start": "node server.js",
     "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
-  },
-  "devDependencies": {}
+  }
 }
